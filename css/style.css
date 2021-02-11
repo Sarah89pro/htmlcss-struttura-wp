@@ -1,0 +1,37 @@
+/*GENERAL*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 30px auto;
+    background-color: whitesmoke;
+}
+
+
+header {
+    height: 100px; /*fake content*/
+    margin-bottom: 10px;
+    background-color: rgb(241, 117, 241);
+
+}
+
+.mainslide {
+    height: 400px; /*fake content*/
+    margin-bottom: 10px;
+    background-color: rgba(228, 179, 19, 0.979);
+}
+
+.topic {
+    height: 80px;
+    background-color: aquamarine;
+
+}
