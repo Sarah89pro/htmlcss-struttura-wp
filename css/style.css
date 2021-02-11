@@ -56,21 +56,22 @@ header {
 
 .columns{
     height: 400px;
-    background-color: aquamarine;
+    padding:20px 0;
+    background-color: rgb(64, 67, 240);
 }
 
 .col-one,
 .col-three {
-    height: 400px;
+    height: 100%;
     width: 25%;
-    border-top: 20px solid rgb(66, 66, 207);
-    border-bottom: 20px solid rgb(66, 66, 207);
+    background-color: aquamarine;
 }
 
 .col-two {
-    height: 400px;
-    width: 50%;
-    border: 20px solid rgb(66, 66, 207);
+    height: 100%;
+    width: calc(50% - 40px);
+    margin: 0 20px;
+    background-color: aquamarine;
 }
 
 /*Footer*/
