@@ -32,7 +32,7 @@ main .col-three {
 /*HEADER*/
 
 header {
-    height: 100px; /*fake content*/
+    height: 120px; /*fake content*/
     margin-bottom: 20px;
     background-color: rgb(241, 117, 241);
 
@@ -49,7 +49,6 @@ header {
 .topic {
     height: 80px;
     background-color: aquamarine;
-    border-bottom: 20px solid rgb(66, 66, 207);
 
 }
 
@@ -58,4 +57,26 @@ header {
 .columns{
     height: 400px;
     background-color: aquamarine;
+}
+
+.col-one,
+.col-three {
+    height: 400px;
+    width: 25%;
+    border-top: 20px solid rgb(66, 66, 207);
+    border-bottom: 20px solid rgb(66, 66, 207);
+}
+
+.col-two {
+    height: 400px;
+    width: 50%;
+    border: 20px solid rgb(66, 66, 207);
+}
+
+/*Footer*/
+
+.footer {
+    height: 80px;
+    margin-top: 20px;
+    background-color: purple;
 }
